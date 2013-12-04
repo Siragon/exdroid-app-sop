@@ -1,7 +1,9 @@
 Exdroid App SOP
 ===============
 
-Standard Operating Procedure for the device exdroid. App for deploy the customization of system android. 
+Standard Operating Procedure for the device exdroid. <br/> 
+App for deploy the customization of system android. <br/>
+This Standard operating procedure should be run under Windows/GNU/Mac OS.
 
 License
 =======
