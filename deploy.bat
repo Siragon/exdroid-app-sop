@@ -89,6 +89,7 @@ bin\adb -s %S% wait-for-device push aosp\system /system
 bin\adb -s %S% wait-for-device shell chmod 6755 /system/bin/su
 bin\adb -s %S% wait-for-device shell chmod 6755 /system/xbin/xx
 bin\adb -s %S% wait-for-device shell chmod 644 /system/app/com.mgyun.shua.su.apk
+bin\adb -s %S% wait-for-device shell chmod -R 755 /system/app
 bin\adb -s %S% wait-for-device shell chmod 644 /system/build.prop
 bin\colous writesec "[12] PROSIGA AL CONTROL DE CALIDAD"
 bin\adb -s %S% wait-for-device shell input keyevent 26
